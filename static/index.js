@@ -442,8 +442,8 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
 
         if (cps <= 4) return '瘪三';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
+        if (cps <= 7) return '哎哟哟';
+        if (cps <= 10)  return '屌';
         if (cps <= 15) return '您';
         return '人？';
     }
